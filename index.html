@@ -43,7 +43,7 @@
         function loadTasks() {
           $.ajax({
             url: 'tasks.php',
-            type: 'POST',
+            type: 'GET',
             success: function (data) {
               $('#tasks').html(data)
             },

@@ -101,12 +101,6 @@ button {
 .wrapper .inputFields button.btn:hover {
   filter: brightness(85%);
 }
-
-.content {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
 .wrapper .content ul li {
   background: rgb(208, 201, 214);
   border-radius: 5px;
@@ -136,6 +130,7 @@ button {
   padding-left: 10px;
   font-weight: 400;
   font-size: 14px;
+  text-align: justify;
 }
 
 .wrapper .content ul li .text.title {
